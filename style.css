@@ -1,16 +1,21 @@
 html {
   height: 100%;
   width: 100%;
+  background-color: #000;
 }
 .title{
   background-color: #590D22;
- 
   font-size: 36px;
   text-align: center;
   padding: 20px;
-  background-image: linear-gradient(90deg, #A4133C 37% , #FF4D6D 73% , #FFB3C1 112% , #FFF0F3 .58%);
+  background: linear-gradient(90deg, #A4133C 37% , #FF4D6D 73% , #FFB3C1 112% , #FFF0F3 .58%);
   color: #FFF0F3;
 }
+.my-Pic{
+  width:60px;
+  height:60px;
+}
+
 .myInput{
   
 }
