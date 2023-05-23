@@ -8,14 +8,14 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body onload="generateRndNum()">
+<body onload="generateRndNum()" >
   <div class = "title" id = "title">
     High Low
   </div>
   <div class = "myContent">
     <img class = "my-Pic" id = "myPic" src = "host.png">
   <input type = "text" class = "myInput" id = "myInput">
-  <button type = "button" class = "myBtn" id = "myBtn"> Guess </button>
+  <button type = "button" class = "myBtn" id = "myBtn" onclick="provideFeedback()"> Guess </button>
   <h1 class = "feedback" id = "feedback">Will be Too High or Too Low here</h1>
   </div>
   <script src="script.js"></script>
