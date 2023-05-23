@@ -8,11 +8,17 @@ function generateRndNum(){
   rndNum = Math.random()*500
   rndNum = Math.ceil(rndNum)
   document.getElementById("title").innerHTML = rndNum
-  if(rndNum > theirGuess.value){
-    feedback.textContent = "Too Low"
-  }else if(){
-    
-  }else{
-    
-  }//end if
 }//end function generateRndNum
+
+function provideFeedback(){
+  theirGuess = document.getElementById("myInput")
+   theirGuess = parseInt(theirGuess.value)
+  console.log(theirGuess)
+  if(rndNum > theirGuess){
+    feedback.textContent = "Too Low"
+  }else if(rndNum < theirGuess){
+    feedback.textContent = "Too High"
+  }else{
+    feedback.textContent = "You Got It!"
+  }//end if
+}
